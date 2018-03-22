@@ -55,7 +55,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 ### Meta tag
 
-* [ ] **Doctype:** ![High][high_img] The Doctype is HTML5 and is at the top of all your HTML pages.
+* [x] **Doctype:** ![High][high_img] The Doctype is HTML5 and is at the top of all your HTML pages.
 
 ```html
 <!doctype html> <!-- HTML5 -->
@@ -65,7 +65,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 *The next 3 meta tags (Charset, X-UA Compatible and Viewport) need to come first in the head.*
 
-* [ ] **Charset:** ![High][high_img] The charset (UTF-8) is declared correctly.
+* [x] **Charset:** ![High][high_img] The charset (UTF-8) is declared correctly.
 
 ```html
 <!-- Set character encoding for the document -->
@@ -79,7 +79,7 @@ Some resources possess an emoticon to help you understand which type of content 
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 ```
 
-* [ ] **Title:** ![High][high_img] A title is used on all pages (SEO: Google calculates the pixel width of the characters used in the title, and it cuts off between 472 and 482 pixels. The average character limit would be around 55-characters).
+* [x] **Title:** ![High][high_img] A title is used on all pages (SEO: Google calculates the pixel width of the characters used in the title, and it cuts off between 472 and 482 pixels. The average character limit would be around 55-characters).
 
 ```html
 <!-- Document Title -->
@@ -98,7 +98,7 @@ Some resources possess an emoticon to help you understand which type of content 
 
 > * 📖 [Meta Description - HTML - MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_an_author_and_description)
 
-* [ ] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
+* [x] **Favicons:** ![Medium][medium_img] Each favicon has been created and displays correctly. If you have only a `favicon.ico`, put it at the root of your site. Normally you won't need to use any markup. However, it's still good practice to link to it using the example below. Today, **PNG format is recommended** over `.ico` format (dimensions: 32x32px).
 
 ```html
 <!-- Standard favicon -->
@@ -197,7 +197,7 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 
 > * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
 
-* [ ] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
+* [x] **CSS order:** ![High][high_img] All CSS files are loaded before any JavaScript files in the `<head>`. (Except the case where sometimes JS files are loaded asynchronously on top of your page).
 
 ### Social meta
 
@@ -247,7 +247,7 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 
 ### Best practices
 
-* [ ] **HTML5 Semantic Elements:** ![High][high_img] HTML5 Semantic Elements are used appropriately (header, section, footer, main...).
+* [x] **HTML5 Semantic Elements:** ![High][high_img] HTML5 Semantic Elements are used appropriately (header, section, footer, main...).
 
 > * 📖 [HTML Reference](http://htmlreference.io/)
 
@@ -275,7 +275,7 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 
 > * 🛠 [W3C Link Checker](https://validator.w3.org/checklink)
 
-* [ ] **Adblockers test:** ![Medium][medium_img] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker).
+* [x] **Adblockers test:** ![Medium][medium_img] Your website shows your content correctly with adblockers enabled (You can provide a message encouraging people to disable their adblocker).
 
 
 
@@ -313,7 +313,7 @@ Minimum required xml markup for the `browserconfig.xml` file is as follows:
 * [ ] **CSS Print:** ![Medium][medium_img] A print stylesheet is provided and is correct on each page.
 * [ ] **Preprocessors:** ![Low][low_img] Your project is using a CSS preprocessor (e.g [Sass](http://sass-lang.com/), [Less](http://lesscss.org/), [Stylus](http://stylus-lang.com/)).
 * [ ] **Unique ID:** ![High][high_img] If IDs are used, they are unique to a page.
-* [ ] **Reset CSS:** ![High][high_img] A CSS reset (reset, normalize or reboot) is used and up to date. *(If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)*
+* [x] **Reset CSS:** ![High][high_img] A CSS reset (reset, normalize or reboot) is used and up to date. *(If you are using a CSS Framework like Bootstrap or Foundation, a Normalize is already included into it.)*
 
 > * 📖 [Reset.css](https://meyerweb.com/eric/tools/css/reset/)
 > * 📖 [Normalize.css](https://necolas.github.io/normalize.css/)
